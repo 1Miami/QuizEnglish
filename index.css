@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    margin-top: 40px;
+}
+.rows{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+.cards{
+    height: 100px;
+    width: 300px;
+background-color: rgb(250, 169, 17);
+margin: 10px;
+
+cursor: pointer;
+transition:0.5s;
+}
+
+.cards:hover{
+    transform: scale(1.2);
+}
